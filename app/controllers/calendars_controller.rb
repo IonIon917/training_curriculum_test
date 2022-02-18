@@ -36,6 +36,7 @@ class CalendarsController < ApplicationController
       end
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       days = { :month => (@todays_date + x).month, :date => (@todays_date+x).day, :plans => today_plans}
 =======
       days = { month:  (@todays_date + x).month, date: (@todays_date+ days).day, plans: today_plans}
@@ -43,6 +44,9 @@ class CalendarsController < ApplicationController
 =======
       days = { month:  (@todays_date + x).month, date: (@todays_date+x).day, plans: today_plans}
 >>>>>>> parent of ee22166 (Issue2)
+=======
+      days = { :month => (@todays_date + x).month, :date => (@todays_date+x).day, :plans => today_plans}
+>>>>>>> parent of 8699bfa (Issue1)
       @week_days.push(days)
     end
 
